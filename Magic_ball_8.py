@@ -1,4 +1,5 @@
-
+# This is a small project, witch realise 'Magic Ball' functions.
+# Start the code and follow instructions for touching something incredible
 
 
 
@@ -20,7 +21,7 @@ def magic_ball_eight():
         answer_the_question = choice(answers)
         print(answer_the_question)
         continue_choice = input('Хочешь задать еще один вопрос?\n')
-        if continue_choice.lower() == 'да':
+        if continue_choice.lower() == 'да' or continue_choice.lower() == 'yes':
             continue
         else:
             print('Возврашайся, если возникнут вопросы.')
